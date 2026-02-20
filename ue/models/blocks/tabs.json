@@ -3,18 +3,28 @@
     {
       "title": "Tabs",
       "id": "tabs",
+      "model": "tabs",
+      "filter": "tabs",
       "plugins": {
         "da": {
-          "unsafeHTML": "<div class=\"tabs\"><div><div><p></p></div><div></div></div></div>"
+          "rows": 1,
+          "columns": 1
         }
       }
     },
     {
       "title": "Tabs Item",
       "id": "tabs-item",
+      "model": "tabs-item",
       "plugins": {
         "da": {
-          "unsafeHTML": "<div><div><p></p></div><div></div></div>"
+          "rows": 1,
+          "columns": 2,
+          "fields": [
+            {"name": "title", "selector": "div>p:nth-child(1)"
+            },
+            { "name": "content", "selector": "div>p:nth-child(2)" }
+          ]
         }
       }
     }
@@ -25,13 +35,14 @@
       "fields": [
         {
           "component": "text",
-          "name": "div:nth-child(1)>p:nth-child(1)",
+          "name": "title",
           "valueType": "string",
-          "label": "Tab Name"
+          "label": "Tab Name",
+          "multi": false
         },
         {
           "component": "richtext",
-          "name": "div:nth-child(2)",
+          "name": "content",
           "label": "Content",
           "valueType": "string"
         }
@@ -41,7 +52,9 @@
   "filters": [
     {
       "id": "tabs",
-      "components": ["tabs-item"]
+      "components": [
+        "tabs-item"
+      ]
     }
   ]
 }
