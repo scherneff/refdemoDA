@@ -334,16 +334,16 @@
               "columns": 1,
               "fields": [
                 {
+                  "name": "posterImage",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture>img[src]"
+                },
+                {
                   "name": "videoUrl",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)[href]"
+                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(2)>a[href]"
                 },
                 {
                   "name": "videoUrlText",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)"
-                },
-                {
-                  "name": "posterImage",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>picture:nth-child(2)>img[src]"
+                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(2)>a"
                 }
               ]
             }

@@ -312,6 +312,12 @@
     "id": "video",
     "fields": [
       {
+        "component": "reference",
+        "name": "posterImage",
+        "label": "Poster Image",
+        "valueType": "string"
+      },
+      {
         "component": "text",
         "name": "videoUrl",
         "label": "Video URL",
@@ -322,12 +328,6 @@
         "component": "text",
         "name": "videoUrlText",
         "label": "Video URL Text",
-        "valueType": "string"
-      },
-      {
-        "component": "reference",
-        "name": "posterImage",
-        "label": "Poster Image",
         "valueType": "string"
       }
     ]
