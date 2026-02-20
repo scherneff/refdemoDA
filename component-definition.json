@@ -346,7 +346,7 @@
                 },
                 {
                   "name": "buttonLink",
-                  "selector": "div:nth-child(6)>div:nth-child(2)>p:nth-child(1)"
+                  "selector": "div:nth-child(6)>div:nth-child(2)>p:nth-child(1)>a[href]"
                 }
               ]
             }
