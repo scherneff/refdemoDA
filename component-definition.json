@@ -67,8 +67,8 @@
           "plugins": {
             "da": {
               "name": "accordion-item",
-              "rows": 2,
-              "columns": 0,
+              "rows": 1,
+              "columns": 2,
               "fields": [
                 {
                   "name": "summary",
