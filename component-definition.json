@@ -305,7 +305,7 @@
               "fields": [
                 {
                   "name": "title",
-                  "selector": "div:nth-child(1)>:first-child"
+                  "selector": "div:nth-child(1)"
                 },
                 {
                   "name": "content",
