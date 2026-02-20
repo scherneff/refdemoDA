@@ -54,7 +54,6 @@
           "filter": "accordion",
           "plugins": {
             "da": {
-              "name": "accordion",
               "rows": 1,
               "columns": 2
             }
@@ -66,7 +65,6 @@
           "model": "accordion-item",
           "plugins": {
             "da": {
-              "name": "accordion-item",
               "rows": 1,
               "columns": 2,
               "fields": [
