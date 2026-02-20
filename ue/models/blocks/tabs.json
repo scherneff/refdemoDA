@@ -21,7 +21,7 @@
           "rows": 1,
           "columns": 2,
           "fields": [
-            { "name": "title", "selector": "div:nth-child(1)" },
+            { "name": "title", "selector": "div:nth-child(1)>p:nth-child(1)" },
             { "name": "content", "selector": "div:nth-child(2)" }
           ]
         }
