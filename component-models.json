@@ -254,13 +254,15 @@
         "name": "title",
         "valueType": "string",
         "label": "Tab Name",
-        "multi": false
+        "multi": false,
+        "value": ""
       },
       {
         "component": "richtext",
         "name": "content",
         "label": "Content",
-        "valueType": "string"
+        "valueType": "string",
+        "value": ""
       }
     ]
   },
