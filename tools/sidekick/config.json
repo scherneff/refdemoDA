@@ -1,7 +1,7 @@
 {
   "project": "DA Block Collection",
   "editUrlLabel": "Document Authoring",
-  "editUrlPattern": "https://da.live/edit#/{{org}}/{{site}}{{pathname}}",
+  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
   "plugins": [
     {
       "id": "da-plugin-demo",
