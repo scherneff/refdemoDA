@@ -207,7 +207,7 @@
               "fields": [
                 {
                   "name": "type",
-                  "selector": "div:nth-child(1)>:first-child"
+                  "selector": "div:nth-child(1)>p:nth-child(1)"
                 },
                 {
                   "name": "dynamicMediaUrl",
