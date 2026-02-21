@@ -16,6 +16,7 @@ import {
 } from './aem.js';
 import { picture, source, img } from './dom-helpers.js';
 
+// eslint-disable-next-line import/no-cycle
 import {
   getLanguage,
   formatDate,
